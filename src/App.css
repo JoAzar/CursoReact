@@ -34,5 +34,25 @@ h1 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
 
+/*MEDIA SCREEN CELULARES*/
+@media only screen and (max-width: 400px){
+    html, body {
+        font-size: 2vh;
+        background-color: #f3f3f3;
+    }
+}
+
+/*MEDIA SCREEN CELULARES*/
+@media only screen and (max-width: 400px){
+    h1 {
+        max-width: 40vh;
+        font-size: 2.5em;
+        font-family: Lato, sans-serif;
+        font-weight: 700;
+        line-height: 1.1;
+        margin: 40px 0;
+        text-shadow: 3px 3px 3px rgb(155, 155, 155);
+    }
 }
